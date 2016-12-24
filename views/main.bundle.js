@@ -18,7 +18,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = !'app works!';
+        this.title = 'app workssssss!';
     }
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
@@ -30,7 +30,7 @@ var AppComponent = (function () {
     ], AppComponent);
     return AppComponent;
 }());
-//# sourceMappingURL=/Users/eduardo/Desktop/temp/angular-cli/debulhador/src/app.component.js.map
+//# sourceMappingURL=/Users/eduardo/Desktop/temp/express-angular/src/app.component.js.map
 
 /***/ },
 
@@ -67,7 +67,7 @@ if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_23" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_4__app___["a" /* AppModule */]);
-//# sourceMappingURL=/Users/eduardo/Desktop/temp/angular-cli/debulhador/src/main.js.map
+//# sourceMappingURL=/Users/eduardo/Desktop/temp/express-angular/src/main.js.map
 
 /***/ },
 
@@ -115,7 +115,7 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
-//# sourceMappingURL=/Users/eduardo/Desktop/temp/angular-cli/debulhador/src/app.module.js.map
+//# sourceMappingURL=/Users/eduardo/Desktop/temp/express-angular/src/app.module.js.map
 
 /***/ },
 
@@ -129,7 +129,7 @@ var AppModule = (function () {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__app_module__["a"]; });
 
 
-//# sourceMappingURL=/Users/eduardo/Desktop/temp/angular-cli/debulhador/src/index.js.map
+//# sourceMappingURL=/Users/eduardo/Desktop/temp/express-angular/src/index.js.map
 
 /***/ },
 
@@ -145,7 +145,7 @@ var AppModule = (function () {
 var environment = {
     production: false
 };
-//# sourceMappingURL=/Users/eduardo/Desktop/temp/angular-cli/debulhador/src/environment.js.map
+//# sourceMappingURL=/Users/eduardo/Desktop/temp/express-angular/src/environment.js.map
 
 /***/ },
 
@@ -201,7 +201,7 @@ var environment = {
 
 
 
-//# sourceMappingURL=/Users/eduardo/Desktop/temp/angular-cli/debulhador/src/polyfills.js.map
+//# sourceMappingURL=/Users/eduardo/Desktop/temp/express-angular/src/polyfills.js.map
 
 /***/ },
 
