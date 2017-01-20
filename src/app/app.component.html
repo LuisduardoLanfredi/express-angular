@@ -1,3 +1,5 @@
-<h1>
-  {{title}}
-</h1>
+<input type="text" [(ngModel)]="comment.Description">
+<input type="button" value="Send Data" (click)="sendData()"/>
+<li *ngFor="let c of comments">
+  {{c.Description}}
+</li>
