@@ -12,16 +12,16 @@ export class CommentService {
 
 
   constructor (private http: Http) {}
-      search() : Observable<Comment[]> {
+      public search() : Observable<Comment[]> {
         return this.http.get('http://localhost:9090/api/comment/search')
           .map((res:Response) => res.json())
-          .catch((error:any) => Observable.throw(error.json().error || 'Server error'));
+          .catch((error:any) => Observable.throw(error.json().error || 'Server errorrr'));
       }
 
-      add(comment: Comment) : any {
+      public add(comment: Object) : any {
         let headers = new Headers({ 'Content-Type': 'application/json' });
         let options = new RequestOptions({ headers: headers });
         let body = JSON.stringify(comment);
-        return this.http.post('http://localhost:9090/api/comment', body, headers).map((res: Response) => res.json());
+        return this.http.post('http://localhost:9090/api/comment', body, options).map((res: Response) => res.json());
     }   
 }
